@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ToolsLib' target in the 'ToolsLib' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
