@@ -29,6 +29,8 @@
 		EB334DA81701D8AD00917C68 /* KnihaJizdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB334DA71701D8AD00917C68 /* KnihaJizdTests.m */; };
 		EB96543817043E06001105DD /* Book72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = EB96543717043E06001105DD /* Book72x72.png */; };
 		EB96543A17043E10001105DD /* Book144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = EB96543917043E10001105DD /* Book144x144.png */; };
+		EB96544A17044988001105DD /* green-car.png in Resources */ = {isa = PBXBuildFile; fileRef = EB96544817044988001105DD /* green-car.png */; };
+		EB96544B17044988001105DD /* red-car.png in Resources */ = {isa = PBXBuildFile; fileRef = EB96544917044988001105DD /* red-car.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		EB334DB31701D92900917C68 /* Book144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Book144x144.png; path = ../Book144x144.png; sourceTree = "<group>"; };
 		EB96543717043E06001105DD /* Book72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Book72x72.png; sourceTree = "<group>"; };
 		EB96543917043E10001105DD /* Book144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Book144x144.png; sourceTree = "<group>"; };
+		EB96544817044988001105DD /* green-car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "green-car.png"; path = "Content/Controls/green-car.png"; sourceTree = "<group>"; };
+		EB96544917044988001105DD /* red-car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "red-car.png"; path = "Content/Controls/red-car.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +199,8 @@
 		EB96543517043868001105DD /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				EB96544817044988001105DD /* green-car.png */,
+				EB96544917044988001105DD /* red-car.png */,
 			);
 			name = Controls;
 			sourceTree = "<group>";
@@ -286,6 +292,8 @@
 				EB334D891701D8AC00917C68 /* MainStoryboard.storyboard in Resources */,
 				EB96543817043E06001105DD /* Book72x72.png in Resources */,
 				EB96543A17043E10001105DD /* Book144x144.png in Resources */,
+				EB96544A17044988001105DD /* green-car.png in Resources */,
+				EB96544B17044988001105DD /* red-car.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

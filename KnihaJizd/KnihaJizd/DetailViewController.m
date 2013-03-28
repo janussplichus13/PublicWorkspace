@@ -38,12 +38,18 @@
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [[self.detailItem valueForKey:@"timeStamp"] description];
     }
-    NSString * filePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"test1" ofType:@"jpg"];
     
-    NSData *testImage1 = [NSData dataWithContentsOfFile:filePath];
-    UIImage *image = [[UIImage alloc] initWithData: testImage1];
+    NSString * onFilePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"green-car" ofType:@"png"];
+    NSData *onImageData = [NSData dataWithContentsOfFile:onFilePath];
+    UIImage *onImage = [[UIImage alloc] initWithData: onImageData];
+
+    //_stavCesty.transform = CGAffineTransformMakeScale(10, 10);
+    _stavCesty.onImage = onImage;
     
-    _stavCesty.offImage = image;
+    NSString * offFilePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"red-car" ofType:@"png"];
+    NSData *offImageData = [NSData dataWithContentsOfFile:offFilePath];
+    UIImage *offImage = [[UIImage alloc] initWithData: offImageData];
+    _stavCesty.offImage = offImage;
 }
 
 - (void)viewDidLoad
