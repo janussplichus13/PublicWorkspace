@@ -15,5 +15,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @property (weak, nonatomic) IBOutlet UITextField *ucelCestyText;
 @property (weak, nonatomic) IBOutlet UITextField *stavTachometru;
+@property (weak, nonatomic) IBOutlet UISwitch *stavCesty;
 
+- (IBAction)OnChangeStavCesty:(id)sender;
 @end

@@ -38,6 +38,12 @@
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [[self.detailItem valueForKey:@"timeStamp"] description];
     }
+    NSString * filePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"test1" ofType:@"jpg"];
+    
+    NSData *testImage1 = [NSData dataWithContentsOfFile:filePath];
+    UIImage *image = [[UIImage alloc] initWithData: testImage1];
+    
+    _stavCesty.offImage = image;
 }
 
 - (void)viewDidLoad
@@ -69,4 +75,14 @@
     self.masterPopoverController = nil;
 }
 
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
+{
+    return NO;
+}
+
+- (IBAction)OnChangeStavCesty:(id)sender
+{
+//    CGContextSetStrokeColorWithColor(
+    int i=0;
+}
 @end

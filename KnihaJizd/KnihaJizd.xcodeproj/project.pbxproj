@@ -27,8 +27,6 @@
 		EB334D9D1701D8AD00917C68 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB334D731701D8AC00917C68 /* CoreData.framework */; };
 		EB334DA51701D8AD00917C68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB334DA31701D8AD00917C68 /* InfoPlist.strings */; };
 		EB334DA81701D8AD00917C68 /* KnihaJizdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB334DA71701D8AD00917C68 /* KnihaJizdTests.m */; };
-		EB334DB21701D92100917C68 /* Book72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = EB334DB11701D92100917C68 /* Book72x72.png */; };
-		EB334DB41701D92900917C68 /* Book144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = EB334DB31701D92900917C68 /* Book144x144.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +132,7 @@
 		EB334D751701D8AC00917C68 /* KnihaJizd */ = {
 			isa = PBXGroup;
 			children = (
+				EB9654341704384A001105DD /* Content */,
 				EB334D7E1701D8AC00917C68 /* AppDelegate.h */,
 				EB334D7F1701D8AC00917C68 /* AppDelegate.m */,
 				EB334D871701D8AC00917C68 /* MainStoryboard.storyboard */,
@@ -178,6 +177,29 @@
 				EB334DA31701D8AD00917C68 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB9654341704384A001105DD /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB96543617043A4A001105DD /* App */,
+				EB96543517043868001105DD /* Controls */,
+			);
+			name = Content;
+			sourceTree = "<group>";
+		};
+		EB96543517043868001105DD /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		EB96543617043A4A001105DD /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +278,6 @@
 				EB334D841701D8AC00917C68 /* Default@2x.png in Resources */,
 				EB334D861701D8AC00917C68 /* Default-568h@2x.png in Resources */,
 				EB334D891701D8AC00917C68 /* MainStoryboard.storyboard in Resources */,
-				EB334DB21701D92100917C68 /* Book72x72.png in Resources */,
-				EB334DB41701D92900917C68 /* Book144x144.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +499,7 @@
 				EB334DAD1701D8AD00917C68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB334DAE1701D8AD00917C68 /* Build configuration list for PBXNativeTarget "KnihaJizdTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +508,7 @@
 				EB334DB01701D8AD00917C68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
