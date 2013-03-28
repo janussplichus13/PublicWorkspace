@@ -27,6 +27,8 @@
 		EB334D9D1701D8AD00917C68 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB334D731701D8AC00917C68 /* CoreData.framework */; };
 		EB334DA51701D8AD00917C68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB334DA31701D8AD00917C68 /* InfoPlist.strings */; };
 		EB334DA81701D8AD00917C68 /* KnihaJizdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB334DA71701D8AD00917C68 /* KnihaJizdTests.m */; };
+		EB96543817043E06001105DD /* Book72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = EB96543717043E06001105DD /* Book72x72.png */; };
+		EB96543A17043E10001105DD /* Book144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = EB96543917043E10001105DD /* Book144x144.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +68,10 @@
 		EB334DA41701D8AD00917C68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EB334DA61701D8AD00917C68 /* KnihaJizdTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnihaJizdTests.h; sourceTree = "<group>"; };
 		EB334DA71701D8AD00917C68 /* KnihaJizdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnihaJizdTests.m; sourceTree = "<group>"; };
-		EB334DB11701D92100917C68 /* Book72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Book72x72.png; sourceTree = "<group>"; };
-		EB334DB31701D92900917C68 /* Book144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Book144x144.png; sourceTree = "<group>"; };
+		EB334DB11701D92100917C68 /* Book72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Book72x72.png; path = ../Book72x72.png; sourceTree = "<group>"; };
+		EB334DB31701D92900917C68 /* Book144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Book144x144.png; path = ../Book144x144.png; sourceTree = "<group>"; };
+		EB96543717043E06001105DD /* Book72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Book72x72.png; sourceTree = "<group>"; };
+		EB96543917043E10001105DD /* Book144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Book144x144.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,8 @@
 		EB334D611701D8AC00917C68 = {
 			isa = PBXGroup;
 			children = (
-				EB334DB31701D92900917C68 /* Book144x144.png */,
-				EB334DB11701D92100917C68 /* Book72x72.png */,
+				EB96543917043E10001105DD /* Book144x144.png */,
+				EB96543717043E06001105DD /* Book72x72.png */,
 				EB334D751701D8AC00917C68 /* KnihaJizd */,
 				EB334DA01701D8AD00917C68 /* KnihaJizdTests */,
 				EB334D6C1701D8AC00917C68 /* Frameworks */,
@@ -198,6 +202,8 @@
 		EB96543617043A4A001105DD /* App */ = {
 			isa = PBXGroup;
 			children = (
+				EB334DB31701D92900917C68 /* Book144x144.png */,
+				EB334DB11701D92100917C68 /* Book72x72.png */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -278,6 +284,8 @@
 				EB334D841701D8AC00917C68 /* Default@2x.png in Resources */,
 				EB334D861701D8AC00917C68 /* Default-568h@2x.png in Resources */,
 				EB334D891701D8AC00917C68 /* MainStoryboard.storyboard in Resources */,
+				EB96543817043E06001105DD /* Book72x72.png in Resources */,
+				EB96543A17043E10001105DD /* Book144x144.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
